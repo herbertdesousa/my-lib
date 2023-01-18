@@ -1,10 +1,29 @@
-- python
-  why python? (bad optimization)
+# Machine Learning
 
-- calculus
+[roadmap](https://www.kaggle.com/getting-started/174107)
 
-- machine learning
-
-
-https://roadmap.sh
-https://www.kaggle.com/getting-started/174107
+## My Roadmap
+- Mathematics
+  - Linera Algebra
+  - Probability & Stats
+    - Bayesian Statistics
+  - Optimization Theory
+- Machine Learning
+  - Supervised Learning
+    - Object Detection
+    - Regression
+    - Classification
+    - Labeling Tool
+      - Active Learning
+  - Unsupervised Learning
+    - Dimension Reduction
+    - Cluestering
+    - Generative Advesarial Network
+  - Reinforcement Learning
+    - Rl in Production
+    - Bandits Recommendation
+    - Scalable RL Agents
+- ML Frameworks
+  - Tensor Flow
+- Perfomace Optimization 
+  - Weight Compression (Float16)
