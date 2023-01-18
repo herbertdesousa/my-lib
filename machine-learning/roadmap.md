@@ -2,6 +2,9 @@
 
 [roadmap](https://www.kaggle.com/getting-started/174107)
 
+The Coding Train
+[Session-1](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bePNiZLnglXUp2LXIjlCdb)
+
 ## My Roadmap
 - Mathematics
   - Linera Algebra
