@@ -23,6 +23,7 @@
     - Rl in Production
     - Bandits Recommendation
     - Scalable RL Agents
+  - Generative output
 - ML Frameworks
   - Tensor Flow
 - Perfomace Optimization 
