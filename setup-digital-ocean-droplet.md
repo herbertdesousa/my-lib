@@ -116,3 +116,13 @@
 
 ### Create user for database user management
   Change it by dbeaver in 'security' path
+
+<br />
+
+### Application
+  - push the application inside droplet (by git or ftp)
+  - pm2
+    ```
+    $ pm2 startup ubuntu -u deploy
+    ```
+  - get the command and paste it
