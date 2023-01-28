@@ -116,3 +116,76 @@
 
 ### Create user for database user management
   Change it by dbeaver in 'security' path
+
+<br />
+
+---------------------
+
+<br />
+
+## Application
+  - push the application inside droplet (by git or ftp)
+  - pm2
+    ```
+    $ pm2 startup ubuntu -u deploy
+    ```
+  - get the command and paste it
+
+<br />
+
+---------------------
+
+<br />
+
+## Nginx
+```
+$ apt install nginx
+```
+- disabled default nginx home page (remove link from sites-available)
+```
+$ rm /etc/nginx/sites-enabled/default
+$ sudo service nginx restart
+```
+- create new site available
+```
+$ cp /etc/nginx/sites-available/default /etc/nginx/sites-available/[site-name]
+$ vim /etc/nginx/sites-available/[site-name]
+```
+- clear all file press 'd' then shift+g, and paste this:
+```
+server {
+  server_name [site-name];
+
+  location / {
+    proxy_pass http://127.0.0.1:[port];
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection 'upgrade';
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_cache_bypass $http_upgrade;
+  }
+}
+```
+- save and exit (esc, type ':wq', hit enter)
+-  link in sites-enabled
+```
+$ ln -s /etc/nginx/sites-available/backend-crm-web /etc/nginx/sites-enabled/
+```
+- check if has some error
+```
+$ nginx -t
+```
+- restart
+```
+$ sudo service nginx restart
+```
+
+<br />
+
+### HTTPS
+
+[certbot](https://certbot.eff.org)
+
