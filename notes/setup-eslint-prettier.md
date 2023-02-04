@@ -1,5 +1,20 @@
 # Setup Eslint Prettier
 
+## Editor Config
+- Install ext on vscode
+- add file .editorconfig
+```.editorconfig
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true 
+```
+
 ## React - Web
 ```bash
 $ npm install eslint --save-dev
