@@ -67,7 +67,6 @@ $ npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
 {
   "semi": true,
   "tabWidth": 2,
-  "printWidth": 100,
   "singleQuote": true,
   "trailingComma": "none",
   "jsxBracketSameLine": true
@@ -126,7 +125,6 @@ $ npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
 {
   "semi": true,
   "tabWidth": 2,
-  "printWidth": 100,
   "singleQuote": true,
   "trailingComma": "none",
   "jsxBracketSameLine": true
