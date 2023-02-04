@@ -38,7 +38,6 @@ $ npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
       "plugin:react/recommended",
       "eslint:recommended",
       "plugin:prettier/recommended",
-      "standard-with-typescript",
       "prettier"
     ],
     "parserOptions": {
@@ -95,7 +94,6 @@ $ npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
     "extends": [
       "eslint:recommended",
       "plugin:prettier/recommended",
-      "standard-with-typescript",
       "prettier"
     ],
     "plugins": ["prettier"],
