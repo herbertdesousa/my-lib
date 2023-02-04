@@ -106,7 +106,9 @@ $ npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
       "project": ["./tsconfig.json"]
     },
     "rules": {
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "@typescript-eslint/no-throw-literal": "off",
+      "@typescript-eslint/no-unused-vars": "warn"
     },
     "overrides": [
       {
