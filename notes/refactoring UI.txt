@@ -1,0 +1,19 @@
+- design features
+
+- design with no details
+  use paper, why: you cannot apply details on it
+
+- move fast on your ideas
+  forget about details and design fast your idea paper
+
+- only necessary
+  dont design every single page
+
+- design -> code -> desing ...
+  design simple feature -> go to code -> catch problems -> design it ...
+
+- only necessary feature
+  ignore 'nice-to-have' ideais
+
+
+CHOOSE A PERSONALITY
