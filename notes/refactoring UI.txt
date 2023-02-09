@@ -15,5 +15,7 @@
 - only necessary feature
   ignore 'nice-to-have' ideais
 
+- language
+  choose between formal or casual language
 
-CHOOSE A PERSONALITY
+Limit your choices - PG 24
