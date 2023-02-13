@@ -1,4 +1,4 @@
-- design features
+- design the features
 
 - design with no details
   use paper, why: you cannot apply details on it
@@ -17,5 +17,11 @@
 
 - language
   choose between formal or casual language
+  
+ - limit your choices
+   don't waste your time by choosing small things
 
-Limit your choices - PG 24
+- define systems
+  shades with 8-10 colors
+
+DESIGNING BY PROCESS OF ELIMINATION - PG 26
