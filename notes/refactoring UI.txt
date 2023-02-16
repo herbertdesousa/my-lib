@@ -1,3 +1,6 @@
+# Refactoring UI
+
+## Scratch
 - design the features
 
 - design with no details
@@ -24,4 +27,7 @@
 - define systems
   shades with 8-10 colors
 
-DESIGNING BY PROCESS OF ELIMINATION - PG 26
+- system for all
+  font size, font weight, line height, color, margin, padding, width, box shadows, border radius, border width, opacity...
+  other low-level design decision
+  system when you're creating, don't define it at once
