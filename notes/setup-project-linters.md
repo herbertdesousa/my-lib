@@ -14,6 +14,60 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true 
 ```
+## React Native
+```bash
+$ npm install eslint --save-dev
+$ npx eslint --init
+```
+
+### Prettier
+```bash
+$ npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
+```
+
+extends airbnb 
+```bash
+$ npm -D i eslint-config-airbnb eslint-config-airbnb-typescript
+```
+
+### Files
+.eslintrc.json
+```json
+  {
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "airbnb",
+      "airbnb-typescript",
+      "prettier"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": "error",
+      "import/prefer-default-export": "off",
+      "react/react-in-jsx-scope": "off"
+    }
+  }
+
+```
+
+.prettierrc
+```json
+{
+  "semi": true,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "jsxBracketSameLine": true
+}
+```
+
+<br />
 
 ## React - Web
 ```bash
@@ -71,6 +125,8 @@ $ npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
   "jsxBracketSameLine": true
 }
 ```
+
+<br />
 
 ## Node
 ```bash
