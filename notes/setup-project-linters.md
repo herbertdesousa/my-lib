@@ -54,7 +54,8 @@ $ npm i -D eslint-plugin-import eslint-import-resolver-typescript
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/no-unused-vars": "warn",
-    "import/no-extraneous-dependencies": "off"
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-props-no-spreading": "off"
   },
   "settings": {
     "import/resolver": {
