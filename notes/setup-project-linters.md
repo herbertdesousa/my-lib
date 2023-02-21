@@ -50,7 +50,8 @@ $ npm -D i eslint-config-airbnb eslint-config-airbnb-typescript
     "rules": {
       "prettier/prettier": "error",
       "import/prefer-default-export": "off",
-      "react/react-in-jsx-scope": "off"
+      "react/react-in-jsx-scope": "off",
+      "@typescript-eslint/no-unused-vars": "warn"
     }
   }
 
