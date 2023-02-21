@@ -25,9 +25,10 @@ $ npx eslint --init
 $ npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
 ```
 
-extends airbnb 
+extends 
 ```bash
 $ npm -D i eslint-config-airbnb eslint-config-airbnb-typescript
+$ npm i -D eslint-plugin-import eslint-import-resolver-typescript
 ```
 
 ### Files
@@ -40,19 +41,27 @@ $ npm -D i eslint-config-airbnb eslint-config-airbnb-typescript
   },
   "extends": [
     "airbnb",
+    "airbnb/hooks",
     "airbnb-typescript",
     "prettier"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "import"],
   "rules": {
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/no-unused-vars": "warn",
     "import/no-extraneous-dependencies": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": ["tsconfig.json", "package/tsconfig.json"]
+      }
+    }
   }
 }
 ```
