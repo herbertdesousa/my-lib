@@ -33,28 +33,28 @@ $ npm -D i eslint-config-airbnb eslint-config-airbnb-typescript
 ### Files
 .eslintrc.json
 ```json
-  {
-    "env": {
-      "browser": true,
-      "es2021": true
-    },
-    "extends": [
-      "airbnb",
-      "airbnb-typescript",
-      "prettier"
-    ],
-    "parserOptions": {
-      "project": "./tsconfig.json"
-    },
-    "plugins": ["prettier"],
-    "rules": {
-      "prettier/prettier": "error",
-      "import/prefer-default-export": "off",
-      "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/no-unused-vars": "warn"
-    }
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "import/prefer-default-export": "off",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "import/no-extraneous-dependencies": "off"
   }
-
+}
 ```
 
 .prettierrc
