@@ -63,8 +63,7 @@ $ npm -D i eslint-config-airbnb eslint-config-airbnb-typescript
   "semi": true,
   "tabWidth": 2,
   "singleQuote": true,
-  "trailingComma": "none",
-  "jsxBracketSameLine": true
+  "trailingComma": "none"
 }
 ```
 
