@@ -109,7 +109,9 @@
 <details>
   <summary>Postgres Image</summary>
   
-  not implemented
+  ```
+  $ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+  ```
 </details>
 
 <br />
