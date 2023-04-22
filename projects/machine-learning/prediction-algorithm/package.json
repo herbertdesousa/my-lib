@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "tsx index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  }
+}
