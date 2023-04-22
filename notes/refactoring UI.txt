@@ -1,3 +1,6 @@
+# Refactoring UI
+
+## Scratch
 - design the features
 
 - design with no details
@@ -24,4 +27,35 @@
 - define systems
   shades with 8-10 colors
 
-DESIGNING BY PROCESS OF ELIMINATION - PG 26
+- system for all
+  font size, font weight, line height, color, margin, padding, width, box shadows, border radius, border width, opacity...
+  other low-level design decision
+  system when you're creating, don't define it at once
+
+
+## Hierarchy
+- size is not everything, use tools
+  colors, font size, font weight, margin
+  
+- emphasize:
+  lower: ligther weight, lighter colors, small content
+  height: higher weight, dark colors, big content
+  
+- never gray text on colored backgrounds
+  instead of constrasted, it turns to opaque and bad legibility
+  keep a similiar lighter background color version
+ 
+- de-emphasize around to emphasize the main
+
+- Labels
+
+  - label is the last resource
+    data displayed by label is hard to read
+    use colors, sizes, formats (xxx@gmail.com, (00) 00000-0000, ...)
+  
+  - label and value, value and label
+    play with their position, ex: Quatity: 1 -> 1 Left Quantity
+  
+  - labels are secondary
+    dont give all attention to labels in your screen
+- 
