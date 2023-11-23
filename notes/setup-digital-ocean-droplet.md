@@ -48,7 +48,6 @@
   & chmod 600 authorized_keys
   & cd ..
   & chmod 700 .ssh/
-  & cd ..
   & chown -R deploy:deploy .ssh/
   ```
 
