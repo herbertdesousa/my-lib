@@ -45,7 +45,7 @@
   & cd /home/deploy/
   & mkdir .ssh
   & cp ~/.ssh/authorized_keys /home/deploy/.ssh/authorized_keys
-  & chmod 600 authorized_keys
+  & chmod 600 /home/deploy/.ssh/authorized_keys
   & cd ..
   & chmod 700 .ssh/
   & chown -R deploy:deploy .ssh/
