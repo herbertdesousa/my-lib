@@ -173,7 +173,7 @@ server {
 - save and exit (esc, type ':wq', hit enter)
 -  link in sites-enabled
 ```
-$ ln -s /etc/nginx/sites-available/backend-crm-web /etc/nginx/sites-enabled/
+$ ln -s /etc/nginx/sites-available/[site-name] /etc/nginx/sites-enabled/
 ```
 - check if has some error
 ```
